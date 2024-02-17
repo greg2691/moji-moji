@@ -1,0 +1,13 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/Adamina.css">
+    <link rel="stylesheet" href="/css/Spectral.css">
+    <link rel="stylesheet" href="/css/Articles-Badges-images.css">
+    <link rel="stylesheet" href="/css/Navbar-Centered-Brand-icons.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+</head>
