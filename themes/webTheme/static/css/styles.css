@@ -19,11 +19,21 @@ h1.intro {
 }
 
 ._home {
-  line-height: 0.99;
+  /*line-height: 0.99;*/
+  padding-bottom: 0px;
+  margin-bottom: 11px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Spectral', serif;
+  font-weight: bold;
+}
+
+.article .btn {
+  border-radius: 0px;
+}
+
+.article .btn:hover {
   font-weight: bold;
 }
 
