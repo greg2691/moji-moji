@@ -1,4 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Moji-Moji Web Experience'
-
+baseurl = "/"
+languageCode = "en-us"
+title = "My Hugo Site"
+theme = "webTheme"
+relativeURLS = true
